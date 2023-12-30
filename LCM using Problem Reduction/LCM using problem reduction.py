@@ -5,6 +5,7 @@ def GCD(a, b):
 
 def LCM(a , b):
     x=GCD(a,b)
+    print("The GCD is :" ,x)
     return (a*b)/x
 
-print(LCM(15, 20))
+print("and the LCM is :",LCM(15, 20))
